@@ -1,0 +1,26 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "jest.setup.ts",
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "packages/**/node_modules",
+    "packages/**/node_modules/*"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@drypp/*": [
+        "packages/*/dist"
+      ],
+      "~*": [
+        "src/*"
+      ],
+      "src/*": [
+        "src/*"
+      ]
+    }
+  }
+}

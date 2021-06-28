@@ -1,0 +1,21 @@
+{
+  "name": "button",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/button.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "tsdx watch --noClean",
+    "build": "tsdx build",
+    "test": "tsdx test --env=jsdom",
+    "lint": "tsdx lint"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  }
+}
