@@ -1,0 +1,30 @@
+{
+  "name": "tokens",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/tokens.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn build:tokens && yarn build:css",
+    "build:tokens": "tsdx build",
+    "build:css": "ts-node -O '{\"module\": \"commonjs\"}' bin/build_tokens.ts",
+    "lint": "tsdx lint"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/flat": "^5.0.1",
+    "@types/fs-extra": "^9.0.11",
+    "case": "^1.6.3",
+    "fs-extra": "^10.0.0",
+    "ts-node": "^10.0.0",
+    "flat": "^5.0.2"
+  }
+}
