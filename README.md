@@ -3,9 +3,13 @@
 Hvordan starte:
 
 1. `git clone https://github.com/NicolaiF/DesignSystem2021.git`
-2. `yarn` 
+2. `yarn`
+3. `yarn build:packages`
+4. `yarn start` for å starte opp nettsiden.
 
 ## Litt om oppsettet
 
-Dette er et såkalt monorepo, styr av [lerna](https://github.com/lerna/lerna#readme). Det gjør at man kan ha flere individuelle pakker/repo, inne i et repo. 
-Det gjør det enklere for å ha separat versjonering av pakkene og de framtidige komponentene til designsystemet.
+`src/pages/index.tsx` inneholder hovedsiden som vises når du kjører `yarn start`
+
+`packages` inneholder de forskjellige komponentene som brukes på nettsiden.
+Kjør `yarn start` i en av disse mappene for å få "hot reload" av komponentene, samtidig som du kjører yarn start i rotmappen.

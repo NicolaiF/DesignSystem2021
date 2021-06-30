@@ -1,0 +1,23 @@
+@import '~@dypp/tokens/dist/styles.scss';
+
+.input {
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  &-label {
+    color: $colors-brand-indigo;
+  }
+  color: $colors-brand-indigo;
+  &:hover {
+    //border-color?
+  }
+  &:focus {
+  }
+  .textfield {
+    // Egen styling for textfield?
+  }
+  .textarea {
+    // Egen styling for textarea?
+  }
+}

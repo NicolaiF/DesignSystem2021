@@ -4,7 +4,7 @@ exports.onCreateWebpackConfig = args => {
   args.actions.setWebpackConfig({
     resolve: {
       alias: {
-        drypp: path.resolve(__dirname, 'packages'),
+        '@dypp': path.resolve(__dirname, 'packages'),
       },
     },
   });

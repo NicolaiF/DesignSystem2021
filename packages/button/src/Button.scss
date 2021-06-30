@@ -1,6 +1,10 @@
-@import 'dypp/tokens/dist/styles.scss';
+@import '~@dypp/tokens/dist/styles.scss';
 
 .button {
-  background: $colors-brand-green;
-  color: $colors-brand-light;
+  background: $colors-brand-indigo;
+  color: $colors-brand-white;
+  &:hover {
+  }
+  &:active {
+  }
 }

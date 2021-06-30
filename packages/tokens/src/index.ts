@@ -1,6 +1,30 @@
 export const colors = {
   brand: {
-    green: '#081c15',
-		light: "#d8f3dc"
+    white: '#ffffff',
+    indigo: "#331B78",
+		yellow: "#F2E39C",
+		orange: "#F2E39C",
+		bismark: "#4d707b",
+		red: "#fc6a76",
+		magenta: "#E1C5EA",
+		violet: "#866180",
+		ice: "#ACE4DB",
+		blue: "#3885D8",
+		green: "#66C291",
+		polo: "#8191C9",
+		pink: "#F269A6",
+		beaver: "#A98C6D",
   },
+  greys:{
+    grey50: "#f6f6f6",
+    grey100: "#EDEDED",
+    grey200: "#DADADA",
+    grey300: "#B6B6B5",
+    grey400: "#919190",
+    grey500: "#6D6D6B",
+    grey600: "#5b5b59",
+    grey700: "#484846",
+    grey800: "#31312f",
+    grey900: "#1a1a18",
+  }
 }

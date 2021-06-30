@@ -1,8 +1,8 @@
 {
-  "name": "button",
+  "name": "typography",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "module": "dist/button.esm.js",
+  "module": "dist/typography.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"

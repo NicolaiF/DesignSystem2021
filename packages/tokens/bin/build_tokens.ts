@@ -5,11 +5,9 @@ import flatten from 'flat';
 import * as tokens from '../src';
 
 
-function format(value: string | number, key: string) {
-  // Outlier, should not be treated as rem/px value
-  if (key.startsWith('zIndex')) {
-    return value;
-  }
+function format(value: string | number, key?: string) {
+  console.log(key);
+  
   return typeof value === 'number' ? `${value / 16}rem` : value;
 }
 const flatTokens: { [key: string]: string } = flatten(tokens);

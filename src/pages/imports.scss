@@ -1,0 +1,12 @@
+@import '../../packages/tokens/dist/styles.scss';
+@import '../../packages/button/dist/styles.css';
+@import '../../packages/typography/dist/styles.css';
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('./LibreFranklin.ttf');
+}
+
+* {
+  font-family: 'LibreFranklin';
+}
