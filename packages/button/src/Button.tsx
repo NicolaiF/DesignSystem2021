@@ -3,6 +3,7 @@ import './Button.scss';
 
 export type ButtonProps = {
   children: React.ReactNode;
+  // variant?: "primary" | "secondary"
 };
 
 export const Button: React.FC<ButtonProps> = ({ children }) => {
