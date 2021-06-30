@@ -1,4 +1,4 @@
-import { Heading1 } from '@dypp/typography';
+import { Heading1 } from '../../packages/typography/src';
 import { Header } from '../components/Header';
 import React from 'react';
 

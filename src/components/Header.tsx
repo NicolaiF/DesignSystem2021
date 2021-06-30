@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link as GatsbyLink } from 'gatsby';
-import { Link } from '@dypp/typography';
+import { Link } from '../../packages/typography/src';
 import './header.scss';
 
 export const Header = () => {

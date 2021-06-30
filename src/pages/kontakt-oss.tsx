@@ -1,6 +1,6 @@
-import { Heading1, Paragraph } from '@dypp/typography';
-import { Input } from '@dypp/form';
-import { Button } from '@dypp/button';
+import { Heading1, Paragraph } from '../../packages/typography/src';
+import { Input } from '../../packages/form/src';
+import { Button } from '../../packages/button/src';
 import React from 'react';
 import { Header } from '../components/Header';
 import './kontakt-oss.scss';
